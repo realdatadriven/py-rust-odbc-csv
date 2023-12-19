@@ -6,12 +6,22 @@ build-backend = "maturin"
 name = "py-rust-odbc-csv"
 requires-python = ">=3.7"
 dependencies = []
+authors = [
+  { name="Real Data-Driven", email="real.datadriven@gmail.com" },
+]
+readme = "README.md"
+description = "Python wraper for extracting data from ODBC Source to CSV using Rust, made to be memory eficient and fast!"
 classifiers = [
     "Programming Language :: Rust",
     "Programming Language :: Python :: Implementation :: CPython",
     "Programming Language :: Python :: Implementation :: PyPy",
 ]
 
+[project.urls]
+"Homepage" = "https://github.com/realdatadriven/py_rust_odbc_csv"
+"Bug Tracker" = "https://github.com/realdatadriven/py_rust_odbc_csv/issues"
+
 
 [tool.maturin]
 features = ["pyo3/extension-module"]
+
