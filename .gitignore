@@ -74,4 +74,5 @@ docs/_build/
 Scripts
 Include
 Lib
+lib64
 **.ipynb
