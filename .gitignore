@@ -76,3 +76,4 @@ Include
 Lib
 lib64
 **.ipynb
+.env
